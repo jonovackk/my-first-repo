@@ -1,3 +1,2 @@
 #!/bin/bash
-sort | uniq -c | grep -E '^[[:space:]]*1 ' | cut -c9-
-
+LC_ALL=C sort | uniq -u
